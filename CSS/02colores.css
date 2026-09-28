@@ -9,6 +9,16 @@ div{
     border: 5px solid #00eeff;
 }
 
+body {
+    background: linear-gradient(180deg, #E85656, #E9CD00, #DC1286, #9624C9, #5B8AD8, #00F1A6);
+}
+
+h1{
+    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
 #C1{
     background: green;
 }
