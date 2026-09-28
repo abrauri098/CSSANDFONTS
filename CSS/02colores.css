@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #00eeff;
+}
+
+#C1{
+    background: green;
+}
+#C2{
+    background: blueviolet;
+}
+#C3{
+    background: yellow;
+}
+#C4{
+    background: #FF5733;
+}
+#C5{
+    background: #33FF57;
+}
+#C6{
+    background: #3357FF;
+}
+#C7{
+    background: rgb(255,99,71);
+}
+#C8{
+    background: rgb(60,179,113);
+}
+#C9{
+    background: rgb(0,191,255);
+}
+#C10{
+    background: rgba(255,99,71,0.5);
+}
+#C11{
+    background: rgba(60,179,113,0.8);
+}
+#C12{
+    background: rgba(0,191,255,0.3);
+}
+#C13{
+    background: hsl(40, 78%, 69%);
+}
+#C14{
+    background: hsl(317, 74%, 32%);
+}
+#C15{
+    background: hsl(158, 61%, 42%);
+}
+#C16{
+    background: linear-gradient(135deg, #D66CD4, #92C3CE);
+}
+#C17{
+    background: linear-gradient(135deg, #7FDF0E, #DC0078);
+}
+#C18{
+    background: linear-gradient(135deg, #B0985D, #A26AC3);
+}
+#C19{
+    background: linear-gradient(90deg, #D9E95F, #45CD6C, #E4005C);
+}
+#C20{
+    background: linear-gradient(90deg, #E9B169, #00F9EC, #7C7DDD);
+}
+#C21{
+    background: linear-gradient(90deg, #A2CC22, #45A7A1, #992DA1);
+}
+#C22{
+    background: hwb(158 5% 69%);
+}
+#C23{
+    background: hwb(314 20% 62%);
+}
+#C24{
+    background: hwb(84 26% 18%);
+}
