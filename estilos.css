@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "SEGA";
+    src: url("SEGAFONT/SEGA.TTF") format("truetype");
+}
+
+    @font-face {
+    font-family: "NINTENDO";
+    src: url("NintendoFont/Nintendo-DS-BIOS.ttf") format("truetype");
+    }
+
+        @font-face {
+    font-family: "PAC-MAN";
+    src: url("PACMANFONT/Pacmania\ Italic.otf") format("truetype");
+    }
+
+        @font-face {
+    font-family: "MINECRAFT";
+    src: url("MineFont/Minecraft.ttf") format("truetype");
+    }
+
+        @font-face {
+    font-family: "DISNEY";
+    src: url("DisneyFont/Walter.ttf") format("truetype");
+    }
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 234, 90);
+    text-shadow: 5px 5px 0px #0ef;
+}
+#boton1{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: purple;
+    color: blue;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin:10px auto;
+    padding: 10px;
+    border: lawngreen groove 10px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 5px aqua;
+    font-family: "SEGA";
+}
+#boton1:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background:gold;
+    color: chocolate;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: brown groove 5px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px yellowgreen;
+    font-family: "Arial Black";
+    transition: 1s ease all;
+    transform: scale(1.1);
+    font-family: "SEGA";
+}
+
+#boton2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: darkorange;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin:10px auto;
+    padding: 10px;
+    border: orangered solid 5px;
+    border-radius: 0px; 
+    box-shadow: 0px 0px 5px black;
+    font-family: "NINTENDO";
+}
+#boton2:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: tomato;
+    color: yellow;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: darkred solid 5px;
+    border-radius: 0px;
+    box-shadow: 8px 4px 7px black;
+    font-family: "Arial Black";
+    transition: 1s ease all;
+    transform: scale(1.1);
+    font-family: "NINTENDO";
+}
+
+#boton3{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: mediumseagreen;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin:10px auto;
+    padding: 10px;
+    border: darkgreen solid 5px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px darkslategray;
+    font-family: "PAC-MAN";
+}
+#boton3:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: seagreen;
+    color: lightgreen;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: lime solid 5px;
+    border-radius: 50px;
+    box-shadow: 3px 6px 20px darkgreen;
+    font-family: "Arial Black";
+    transition: 1s ease all;
+    transform: scale(1.1);
+    font-family: "PAC-MAN";
+}
+
+#boton4{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: crimson;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin:10px auto;
+    padding: 10px;
+    border: darkred double 8px;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 8px 0px maroon;
+    font-family: "MINECRAFT";
+}
+
+#boton4:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: deeppink;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: pink double 8px;
+    border-radius: 0px 0px 25px 25px; 
+    box-shadow: 0px -8px 0px hotpink; 
+    font-family: "Arial Black";
+    transition: 1s ease all;
+    transform: scale(1.1);
+    font-family: "MINECRAFT";
+}
+
+#boton5{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: slateblue;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin:10px auto;
+    padding: 10px;
+    border: indigo solid 5px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 0px 0px 5px midnightblue;
+    font-family: "DISNEY";
+}
+#boton5:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: darkslateblue;
+    color: cyan;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: mediumpurple solid 5px;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 0px 0px 15px blue;
+    font-family: "Arial Black";
+    transition: 1s ease all;
+    transform: scale(1.1);
+    font-family: "DISNEY";
+}
