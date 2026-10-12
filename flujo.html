@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>5. Flujo normal y display</title>
+    <link rel="stylesheet" href="CSS/flujo.css">
+</head>
+<body>
+    <a href="index.html">Regresar</a>
+    <h1>Flujo normal y display</h1>
+    <h2>Teoría Básica</h2>
+    <p>El flujo normal es cómo el navegador apila los elementos. La propiedad <code>display</code> cambia esto: `block` (toda la línea), `inline` (solo su tamaño), `inline-block` y `none`.</p>
+    
+    <h2>Ejemplos Básicos</h2>
+    <div class="caja ej1">1. Display Block (Ocupa todo el ancho)</div>
+    <div class="caja ej2">2. Display Inline</div> <div class="caja ej2">Otro Inline</div><br><br>
+    <div class="caja ej3">3. Inline-Block</div> <div class="caja ej3">Inline-Block</div><br>
+    <div class="caja ej1">4. El siguiente elemento tiene "display: none" (no existe):</div>
+    <div class="caja ej4">No me ves</div>
+    <div class="caja ej1">5. El siguiente tiene "visibility: hidden" (deja el hueco):</div>
+    <div class="caja ej5">Hueco</div>
+
+    <h2>3. Video Explicativo</h2>
+    <video width="600" controls><source src="archivos/flujo.mp4" type="video/mp4"></video>
+</body>
+</html>

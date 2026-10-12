@@ -1,0 +1,10 @@
+body { font-family: sans-serif; margin: 20px; }
+.volver { padding: 10px; background: #333; color: white; text-decoration: none; border-radius: 5px; }
+.grid-container { display: grid; background: #ddd; padding: 10px; margin-bottom: 20px; }
+.item { background: #4CAF50; border: 1px solid white; padding: 20px; font-size: 20px; text-align: center; color: white; }
+.ej1 { grid-template-columns: auto auto; } 
+.ej2 { grid-template-columns: auto auto auto; } 
+.ej3 { grid-template-columns: auto auto; gap: 15px; } 
+.ej4 { grid-template-columns: 1fr 2fr; } 
+.ej5 { grid-template-columns: auto auto auto; }
+.span-col { grid-column: span 2; background: #2196F3; }

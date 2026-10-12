@@ -1,0 +1,15 @@
+body { font-family: sans-serif; margin: 20px; }
+.volver { padding: 10px; background: #333; color: white; text-decoration: none; border-radius: 5px; }
+.caja { width: 100px; height: 100px; margin: 20px; background: red; text-align: center; color: white; line-height: 100px; font-weight: bold; display: inline-block; }
+
+@keyframes colorCambio { from {background: red;} to {background: blue;} }
+@keyframes rotar { from {transform: rotate(0deg);} to {transform: rotate(360deg);} }
+@keyframes crecer { 0% {transform: scale(1);} 50% {transform: scale(1.5);} 100% {transform: scale(1);} }
+@keyframes mover { from {transform: translateX(0);} to {transform: translateX(200px);} }
+@keyframes desvanecer { from {opacity: 1;} to {opacity: 0.2;} }
+
+.ej1 { animation: colorCambio 3s infinite alternate; }
+.ej2 { animation: rotar 2s infinite linear; }
+.ej3 { animation: crecer 2s infinite; background: green; }
+.ej4 { animation: mover 3s infinite alternate; background: purple; }
+.ej5 { animation: desvanecer 1.5s infinite alternate; background: black; }

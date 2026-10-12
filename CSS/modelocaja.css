@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 20px; }
+.volver { display: inline-block; padding: 10px; background: #333; color: white; text-decoration: none; border-radius: 5px; margin-bottom: 20px;}
+.caja { background: lightblue; margin-bottom: 15px; text-align: center; font-weight: bold; }
+.ej1 { width: 150px; height: 50px; }
+.ej2 { width: 150px; padding: 20px; background: lightgreen; }
+.ej3 { width: 150px; border: 5px solid red; }
+.ej4 { width: 150px; margin: 30px; background: gold; }
+.ej5 { width: 150px; padding: 15px; border: 5px dashed blue; margin: 20px; box-sizing: border-box; }

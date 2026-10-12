@@ -1,0 +1,8 @@
+body { font-family: sans-serif; margin: 20px; }
+.volver { display: inline-block; padding: 10px; background: #333; color: white; text-decoration: none; border-radius: 5px; }
+.caja { width: 250px; height: 80px; margin-bottom: 15px; color: white; font-weight: bold; display: flex; align-items: center; justify-content: center; }
+.ej1 { background-color: tomato; }
+.ej2 { background-image: linear-gradient(to right, red, yellow); color: black; }
+.ej3 { background-image: radial-gradient(circle, blue, black); }
+.ej4 { background: url('https://www.w3schools.com/css/img_tree.png') repeat-x; color: black; border: 1px solid black; }
+.ej5 { background: url('https://www.w3schools.com/css/img_tree.png') cover center; text-shadow: 1px 1px 2px black; border: 1px solid black; }
