@@ -5,4 +5,4 @@ body { font-family: sans-serif; margin: 20px; }
 .ej2 { background-image: linear-gradient(to right, red, yellow); color: black; }
 .ej3 { background-image: radial-gradient(circle, blue, black); }
 .ej4 { background: url('https://www.w3schools.com/css/img_tree.png') repeat-x; color: black; border: 1px solid black; }
-.ej5 { background: url('https://www.w3schools.com/css/img_tree.png') cover center; text-shadow: 1px 1px 2px black; border: 1px solid black; }
+.ej5 { background-image: url('https://www.w3schools.com/css/img_tree.png'); background-size: cover;background-position: center;text-shadow: 1px 1px 2px black; border: 1px solid black; }
